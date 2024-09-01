@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auto Field</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">Auto Field</div>
+      <nav>
+        <ul class="navbar">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#vehicles">Vehicles</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#book" class="cta-button headerBtn">Book a Test Drive</a>
+      <i class="fa-solid fa-bars"  ></i>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">Drive the Future Today</h1>
+        <p class="hero-subtitle">
+          Experience the ultimate blend of luxury and technology.
+        </p>
+        <a href="#vehicles" class="cta-button homeBtn">Explore Models</a>
+      </div>
+    </section>
+
+    <section id="vehicles" class="vehicles">
+      <h2>Featured Vehicles</h2>
+      <div class="vehicle-slider">
+        <div class="vehicle-card">
+          <img src="./Images/bugatti.jpg" alt="" />
+        </div>
+        <div class="vehicle-card">
+          <img src="./Images/lamborghini.png" alt="" />
+        </div>
+        <div class="vehicle-card">
+          <img src="./Images/porsche.png" alt="" />
+        </div>
+        <div class="vehicle-card">
+          <img src="./Images/Bentley.jpg" alt="" />
+        </div>
+        <div class="vehicle-card"><img src="./Images/bmw.jpg" alt="" /></div>
+        <div class="vehicle-card">
+          <img src="./Images/mercedes.png" alt="" />
+        </div>
+        <div class="vehicle-card"><img src="./Images/audi.png" alt="" /></div>
+        <div class="vehicle-card">
+          <img src="./Images/rolls-royce.jpg" alt="" />
+        </div>
+        <div class="vehicle-card">
+          <img src="./Images/cadillac.png" alt="" />
+        </div>
+        <div class="vehicle-card"><img src="./Images/lexus.png" alt="" /></div>
+        <div class="vehicle-card"><img src="./Images/jagaur.png" alt="" /></div>
+        <div class="vehicle-card">
+          <img src="./Images/range-rover.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <h2>Technology and Features</h2>
+      <div class="feature-grid">
+        <div class="feature-item">Autonomous Driving</div>
+        <div class="feature-item">Hybrid Engines</div>
+        <div class="feature-item">Smart Connectivity</div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+      <h2>What Our Customers Say</h2>
+      <div class="testimonial-carousel">
+        <div class="testimonial-card">
+          <img src="./Images/testi.png" alt="" />
+        </div>
+        <div class="testimonial-card">
+          <img src="./Images/test.png" alt="" />
+        </div>
+        <div class="testimonial-card">
+          <img src="./Images/testim.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="text">
+               Contact <span>Us</span>
+            </div>
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="8b887a0c-ca8d-45ef-abab-b2188f53e19d">
+               <div class="form-row">
+                  <div class="input-data">
+                     <input type="text" name="First Name" required>
+                     <div class="underline"></div>
+                     <label for="">First Name</label>
+                  </div>
+                  <div class="input-data">
+                     <input type="text" name="Last Name" required>
+                     <div class="underline"></div>
+                     <label for="">Last Name</label>
+                  </div>
+               </div>
+               <div class="form-row">
+                  <div class="input-data">
+                     <input type="text" name="Email" required>
+                     <div class="underline"></div>
+                     <label for="">Email Address</label>
+                  </div>
+                  <div class="input-data">
+                     <input type="text" name="Email Subject" required>
+                     <div class="underline"></div>
+                     <label for="">Email Subject</label>
+                  </div>
+               </div>
+               <div class="form-row">
+               <div class="input-data textarea">
+                  <textarea rows="8" cols="80" name="Massage" required></textarea>
+                  <br />
+                  <div class="underline"></div>
+                  <label for="">Write your message</label>
+                  <br />
+                  <div class="form-row submit-btn">
+                     <div class="input-data">
+                        <div class="inner"></div>
+                        <input type="submit" name="Submit" value="Submit">
+                     </div>
+                  </div>
+            </form>
+            </div>
+    </section>
+
+    <footer>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#vehicles">Vehicles</a>
+        <a href="#features">Features</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="social-media">
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+
+
+  </body>
+</html>
